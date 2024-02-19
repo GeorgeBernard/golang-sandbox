@@ -7,8 +7,6 @@ type rectangle struct {
 	width  float64
 }
 
-// YOUR CODE HERE: Convert this function to a method on
-// the "rectangle" type named "info".
 func (r rectangle) info() {
 	fmt.Println("Length:", r.length)
 	fmt.Println("Width:", r.width)
